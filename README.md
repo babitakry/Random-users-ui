@@ -1,17 +1,30 @@
-# React + Vite
+# Random Users UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive and beautifully designed React application that fetches and displays random user profiles. 
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This project was built using **React**, **Vite**, and **Tailwind CSS**. It connects to the [FreeAPI Random Users endpoint](https://api.freeapi.app/api/v1/public/randomusers) to retrieve a list of randomly generated user data. 
 
-## React Compiler
+The application parses the JSON response and dynamically renders the data into a clean, modern grid of `UserCard` components.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+- **Data Fetching:** Utilizes React's `useEffect` and the native `fetch` API to retrieve data on component mount.
+- **Component-Based Architecture:** Separates the layout logic (App) from the display logic (`UserCard`).
+- **Responsive Design:** Uses Tailwind CSS Grid to automatically adjust the number of columns based on the screen size (mobile, tablet, and desktop).
+- **Beautiful UI:** Incorporates modern design practices including soft shadows, rounded borders, hover micro-animations, and clean typography.
+- **State Management:** Handles loading states with animated spinners and gracefully catches API errors.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# Random-users-ui
+## Technologies Used
+
+- React 19
+- Vite
+- Tailwind CSS v4
+
+## How to Run Locally
+
+1. Clone the repository.
+2. Install dependencies using `npm install`.
+3. Start the development server using `npm run dev`.
+4. Open your browser to the local server URL provided by Vite.
