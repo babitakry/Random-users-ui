@@ -4,8 +4,8 @@ A responsive and beautifully designed React application that fetches and display
 
 ## Live Demo
 
-🚀 **[View Live Project Here](YOUR_DEPLOYED_URL_HERE)**
-*(Replace `YOUR_DEPLOYED_URL_HERE` with your actual deployment link once hosted)*
+**[View Live Project Here]**
+*https://random-users-ui-zeta.vercel.app/*
 
 ## Overview
 
