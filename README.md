@@ -2,6 +2,11 @@
 
 A responsive and beautifully designed React application that fetches and displays random user profiles. 
 
+## Live Demo
+
+🚀 **[View Live Project Here](YOUR_DEPLOYED_URL_HERE)**
+*(Replace `YOUR_DEPLOYED_URL_HERE` with your actual deployment link once hosted)*
+
 ## Overview
 
 This project was built using **React**, **Vite**, and **Tailwind CSS**. It connects to the [FreeAPI Random Users endpoint](https://api.freeapi.app/api/v1/public/randomusers) to retrieve a list of randomly generated user data. 
